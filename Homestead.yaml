@@ -1,0 +1,26 @@
+ip: 192.168.150.10
+memory: 2048
+cpus: 2
+provider: virtualbox
+authorize: ~/.ssh/id_rsa.pub
+keys:
+    - ~/.ssh/id_rsa
+folders:
+    -
+        map: ./sockets/
+        to: /var/www/sites/sockets/
+sites:
+    -
+        map: dev.sockets.com
+        to: /var/www/sites/sockets/public/
+databases:
+    - homestead
+features:
+    -
+        mariadb: false
+    -
+        ohmyzsh: false
+    -
+        webdriver: false
+name: sockets-io
+hostname: sockets-io

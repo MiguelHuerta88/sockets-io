@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/sites/sockets/":{"type":null,"mount_options":["uid=1000","gid=1000"],"guestpath":"/var/www/sites/sockets","hostpath":"/Users/miguelhuerta/Desktop/code/sockets-io/sockets","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/miguelhuerta/Desktop/code/sockets-io","disabled":false,"__vagrantfile":true}}}
